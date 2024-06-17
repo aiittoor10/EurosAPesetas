@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Euros a Pesetas</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="manifest" href="/manifest.json">
+
+  <style>
+    /* Estilos adicionales específicos para el footer */
+    footer {
+      margin-top: 20px; /* Espacio superior */
+      padding: 10px 0; /* Padding superior e inferior */
+      background-color: #f8f9fa; /* Color de fondo */
+      text-align: center; /* Alineación del texto */
+    }
+  </style>
+</head>
+<body>
+  <h1 class="text-center">De Euros a Pesetas</h1>
+
+  <div class="container mt-5">
+    <form>
+      <div class="form-group">
+        <label for="euros">EUROS</label>
+        <input type="number" class="form-control" id="euros" placeholder="Introduce total de Euros" required>
+      </div>  
+        
+      <div class="form-group">
+        <label for="pesetas">PESETAS</label>
+        <input type="number" class="form-control" id="pesetas" placeholder="Introduce total de Pesetas" required>
+      </div>
+        
+      <button type="submit" class="btn btn-primary mt-3">Calcular</button>
+    </form>
+
+    <div class="mt-5">
+      <h2>Historial de Conversiones</h2>
+      <button class="btn btn-danger mb-3" id="borrarHistorial">Borrar Historial</button>
+      <ul id="historial" class="list-group">
+        <!-- Aquí se mostrará el historial de conversiones -->
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="card">
+        <div class="card-header">
+          De Euros A Pesetas
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>Version 1.0</p>
+            <footer class="blockquote-footer">©Aitor Cobo 2024 <cite title="Source Title"></cite></footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Fin del Footer -->
+
+  <!-- Bootstrap JS y dependencias -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Script JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

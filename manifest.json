@@ -1,0 +1,17 @@
+{
+    "name": "Conversor de Euros a Pesetas",
+    "short_name": "Euro-Peseta Converter",
+    "description": "Una herramienta para convertir entre Euros y Pesetas.",
+    "icons": [
+      {
+        "src": "OIG2.A.jpg", 
+        "sizes": "192x192",
+        "type": "image/jpg"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#007bff", 
+    "background_color": "#ffffff" 
+  }
+  
