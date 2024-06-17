@@ -4,9 +4,9 @@
     "description": "Una herramienta para convertir entre Euros y Pesetas.",
     "icons": [
       {
-        "src": "OIG2.A.jpg", 
+        "src": "OIG2A.jpg", 
         "sizes": "192x192",
-        "type": "image/jpg"
+        "type": "image/jpeg"
       }
     ],
     "start_url": "/",
